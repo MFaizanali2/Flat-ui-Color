@@ -7,11 +7,18 @@ html,body{
     width: 100%;
     height: 100vh;
 }
-#container{
-    width: 100%;
-    height: 100%;    
+body{
+    background-color: #2B86C5;
 }
-#first-line{
+#container{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    min-width: 600px;
+}
+/* #first-line{
     width: 100%;
     height: 25%;
     background-color: aqua;
@@ -30,4 +37,51 @@ html,body{
     width: 100%;
     height: 25%;
     background-color: royalblue;
+} */
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #105688;
+}
+h1 span{
+    /* color: #019f55; */
+    color: #105688;
+    
+    padding-bottom: 7px;
+}
+#input{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #105688;
+    background-color: #0c6baf;
+    font-size: 2rem;
+    color: #fff;
+
+}
+#btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 20px;
+    background-color: #105688;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 15px 40px;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: #fff;
+    color: #105688;
+
 }
