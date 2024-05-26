@@ -7,3 +7,27 @@ html,body{
     width: 100%;
     height: 100vh;
 }
+#container{
+    width: 100%;
+    height: 100%;    
+}
+#first-line{
+    width: 100%;
+    height: 25%;
+    background-color: aqua;
+}
+#second-line{
+    width: 100%;
+    height: 25%;
+    background-color: red;
+}
+#third-line{
+    width: 100%;
+    height: 25%;
+    background-color: gray;
+}
+#fourth-line{
+    width: 100%;
+    height: 25%;
+    background-color: royalblue;
+}
