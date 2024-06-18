@@ -41,11 +41,12 @@ body{
 h1{
     font-size: 50px;
     font-weight: bold;
-    color: #105688;
+    color: #000;
+    font-family: sans-serif;
 }
 h1 span{
     /* color: #019f55; */
-    color: #105688;
+    color: #000;
     
     padding-bottom: 7px;
 }
@@ -56,8 +57,8 @@ h1 span{
     height: 60px;
     border-radius: 5px;
     outline: none;
-    border: 2px solid #105688;
-    background-color: #0c6baf;
+    border: 2px solid gray;
+    background-color: gray;
     font-size: 2rem;
     color: #fff;
 
@@ -70,7 +71,7 @@ h1 span{
 }
 button{
     font-size: 20px;
-    background-color: #105688;
+    background-color: gray;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -78,10 +79,10 @@ button{
     cursor: pointer;
     font-weight: bolder;
     padding: 15px 40px;
-    transition-duration: 0.5s;
+    transition: 1s;
 }
 button:hover{
     background-color: #fff;
-    color: #105688;
+    color: gray;
 
 }
