@@ -5,7 +5,7 @@ let change = "";
 function Generate(){
     let input = document.getElementById("input");
     change = '';
-   for (let i = 0; i <= 3; i++) {
+   for (let i = 0; i <= 5; i++) {
          let randomNumber = generate[Math.floor(Math.random() * generate.length)]
          change += randomNumber;
         
